@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-1pxdeep-theme",
+  "version": "0.0.1",
+  "authors": [
+     "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)"
+  ],
+  "description": "1pxdeep theme for Bootstrap 4, based on relative color design. Powered by nunjucks and Sass.",
+  "main": "_site/index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/bassjobsen/bootstrap-1pxdeep-theme/",
+  "dependencies": {
+    "bootstrap-1pxdeep": "0.0.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_site",
+    "test",
+    "tests"
+  ]
+}

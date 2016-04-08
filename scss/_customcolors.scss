@@ -1,0 +1,11 @@
+@import "bootstrap-1pxdeep/scss/includes/1pxdeep-variables";
+@import "bootstrap-1pxdeep/scss/includes/1pxdeep-scheme"; 
+@import "bootstrap-1pxdeep/scss/includes/1pxdeep-bootstrap-variables"; // includes bootstrap's overrides
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap-1pxdeep/scss/includes/1pxdeep";
+
+body {
+background-color: $onepxdeep-bg;
+color: contrast-color($body-bg);
+}

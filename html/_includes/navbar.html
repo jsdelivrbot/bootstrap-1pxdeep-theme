@@ -1,0 +1,24 @@
+<nav class="navbar navbar-full navbar-color1">
+  <a class="navbar-brand" href="#">Color 1</a>
+    <div class="nav navbar-nav pull-xs-right">
+<!-- Split button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Choose your seed color</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item{% if page == "home" %} active{% endif%}" href="/">Default (#578562)</a>
+    <a class="dropdown-item{% if page == "black" %} active{% endif%}" href="/black.html">Black</a>
+    <a class="dropdown-item{% if page == "red" %} active{% endif%}" href="/red.html">Red</a>
+    <a class="dropdown-item{% if page == "orange" %} active{% endif%}" href="/orange.html">Orange</a>    
+    <a class="dropdown-item{% if page == "yellow" %} active{% endif%}" href="/yellow.html">Yellow</a>    
+    <a class="dropdown-item{% if page == "green" %} active{% endif%}" href="/green.html">Green</a>
+    <a class="dropdown-item{% if page == "blue" %} active{% endif%}" href="/blue.html">Blue</a>
+    <a class="dropdown-item{% if page == "indigo" %} active{% endif%}" href="/indigo.html">Indigo</a>    
+    <a class="dropdown-item{% if page == "violet" %} active{% endif%}" href="/violet.html">Violet</a>    
+    <a class="dropdown-item{% if page == "white" %} active{% endif%}" href="/white.html">White</a>
+  </div>
+</div>
+  </div>
+</nav> 
